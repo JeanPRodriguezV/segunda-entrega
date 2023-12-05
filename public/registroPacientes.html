@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de pacientes</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+    <header>
+        <H1 id="CentroMedico">CENTRO MÉDICO JEAN RODRÍGUEZ</H1>
+    </header>
+    <main>
+        <h2>Registro de pacientes</h2>
+        <div class="container-form">
+            <form method="post" action="/agregar-paciente">
+                <label for="nombres">Nombres <span>*</span></label><br>
+                <input type="text" id="nombres" name="nombres" placeholder="Nombre del paciente" required><br>
+                <label for="apellidos">Apellidos <span>*</span></label><br>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apelliddos del paciente" required><br>
+                <label for="cedula">Número de cédula <span>*</span></label><br>
+                <input type="number" id="cedula" name="cedula" placeholder="Ingresa cédula del paciente" required><br>
+                <label for="fecha_nacimiento">Fecha de nacimiento <span>*</span></label><br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" placeholder="fecha nacimiento"><br>
+                <label for="telefono">Teléfono <span>*</span></label><br>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese número de teléfono" required><br>
+                        
+                
+                <input type="submit" value="Enviar">
+            </form>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Jean Paul Rodrígez Valencia</p>
+    </footer>
+
+</body>
+
+</html>
